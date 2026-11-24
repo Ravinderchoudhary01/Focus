@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusGuard</string>
+    <string name="service_description">Detects when the Shorts or Reels screen is open in YouTube and Instagram and leaves it. It reads screen element IDs only, never your messages, text or passwords, and sends nothing off your phone.</string>
+</resources>

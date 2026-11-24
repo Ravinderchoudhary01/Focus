@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "package": "com.google.android.youtube",
+      "name": "YouTube",
+      "kind": "shorts",
+      "kindLabel": "Shorts",
+      "bucket": "yt_long",
+      "bucketLabel": "YouTube",
+      "blockIds": [
+        "reel_recycler",
+        "reel_player_page_container",
+        "reel_watch_fragment_root"
+      ],
+      "blockSelectedIds": [],
+      "exemptIds": [],
+      "inboxIds": []
+    },
+    {
+      "package": "com.instagram.android",
+      "name": "Instagram",
+      "kind": "reels",
+      "kindLabel": "Reels",
+      "bucket": "ig_feed",
+      "bucketLabel": "Instagram",
+      "blockIds": [
+        "clips_viewer_view_pager",
+        "clips_viewer_container",
+        "clips_swipe_refresh_container"
+      ],
+      "blockSelectedIds": [
+        "clips_tab"
+      ],
+      "exemptIds": [
+        "row_thread_composer",
+        "direct_thread",
+        "thread_message_list"
+      ],
+      "inboxIds": [
+        "action_bar_inbox_button"
+      ]
+    }
+  ]
+}
